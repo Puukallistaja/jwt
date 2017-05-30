@@ -10,7 +10,8 @@ var pos;
 var modalOpen = false;
 
 var create = function(e) {
-	if (document.getElementById("target") !== null) {
+	//if div exists in dom, do nothing
+	if ($("#target").length) {
 		return
 	}
 	//to remember the front page scroll position.
@@ -28,11 +29,13 @@ var create = function(e) {
 			"id": 'target',
 			"name": 'modal',
 			"class": 'modal-seed',
+			"tabindex": '0'
 		})
-			.appendTo('body')
-			.css({"top": x+"px", "left": y+"px"} )
+			.appendTo("body")
+			.css({"top": x+"px", "left": y+"px"})
 			.focus()
 			.addClass("modal");
+			
 	//push state into browser history
 	if (history.state == null) {
 		history.pushState(1, null, 'index.html');
