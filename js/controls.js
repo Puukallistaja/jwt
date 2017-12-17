@@ -19,15 +19,15 @@ var create = function(e) {
 	// pos = window.pageYOffset;
 
 	//get coordinates of the clicked article	
-	var coords = e.getBoundingClientRect();
+	let coords = e.getBoundingClientRect();
+	console.log(coords);
 	//calculate center point. popper starts animation from there
-	var x = (coords.top + coords.bottom) / 2;
-	var y = (coords.left + coords.right) / 2;
+	let x = (coords.top + coords.bottom) / 2;
+	let y = (coords.left + coords.right) / 2;
 
 	//create popper and give attributes
 	var popper = $('<div/>', {
 			"id": 'target',
-			"name": 'modal',
 			"class": 'modal-seed',
 			"tabindex": '0'
 		})
