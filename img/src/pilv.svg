@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#6464ff"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- big cloud reading -->
+<path d="M230,500 Q140,500 150,410 Q160,330 250,340 Q270,230 390,240 Q460,150 580,200 Q690,140 760,240 Q880,220 900,330 Q1010,340 1000,430 Q990,510 900,500 Z" fill="#fff"/>
+<circle cx="496.0" cy="360" r="25.6" fill="#fff0f0" stroke-width="9.600000000000001"/>
+<circle cx="499.2" cy="366.4" r="11.520000000000001" fill="#232332" stroke="none"/>
+<path d="M467.2,360 A28.8,28.8 0 0 1 524.8000000000001,360 Z" fill="#c9a0ff" stroke-width="9.600000000000001"/>
+<circle cx="624.0" cy="360" r="25.6" fill="#fff0f0" stroke-width="9.600000000000001"/>
+<circle cx="627.2" cy="366.4" r="11.520000000000001" fill="#232332" stroke="none"/>
+<path d="M595.1999999999999,360 A28.8,28.8 0 0 1 652.8000000000001,360 Z" fill="#c9a0ff" stroke-width="9.600000000000001"/>
+<path d="M540,420 q20,10 40,0" fill="none" stroke-width="6"/>
+<!-- book -->
+<g transform="translate(580,520)">
+  <path d="M-220,-60 L0,-30 L220,-60 L220,110 L0,140 L-220,110 Z" fill="#ffd25a"/>
+  <path d="M0,-30 L0,140" />
+  <text x="-170" y="60" font-family="helvetica" font-size="70" font-weight="bold" fill="#232332" stroke="none">PILV</text>
+  <text x="40" y="50" font-family="helvetica" font-size="38" fill="#232332" stroke="none">= cloud</text>
+</g>
+<!-- raindrops taking notes -->
+<g transform="translate(260,720)">
+<path d="M0,-45 Q30,0 22,18 A24,24 0 0 1 -22,18 Q-30,0 0,-45 Z" fill="#7cc8ff"/>
+<circle cx="-7" cy="6" r="4" fill="#232332" stroke="none"/><circle cx="9" cy="6" r="4" fill="#232332" stroke="none"/>
+<rect x="18" y="10" width="26" height="32" fill="#fff" stroke-width="4"/>
+<path d="M24,20 l14,0 M24,28 l14,0" stroke-width="3"/>
+</g><g transform="translate(470,750)">
+<path d="M0,-45 Q30,0 22,18 A24,24 0 0 1 -22,18 Q-30,0 0,-45 Z" fill="#7cc8ff"/>
+<circle cx="-7" cy="6" r="4" fill="#232332" stroke="none"/><circle cx="9" cy="6" r="4" fill="#232332" stroke="none"/>
+<rect x="18" y="10" width="26" height="32" fill="#fff" stroke-width="4"/>
+<path d="M24,20 l14,0 M24,28 l14,0" stroke-width="3"/>
+</g><g transform="translate(760,735)">
+<path d="M0,-45 Q30,0 22,18 A24,24 0 0 1 -22,18 Q-30,0 0,-45 Z" fill="#7cc8ff"/>
+<circle cx="-7" cy="6" r="4" fill="#232332" stroke="none"/><circle cx="9" cy="6" r="4" fill="#232332" stroke="none"/>
+<rect x="18" y="10" width="26" height="32" fill="#fff" stroke-width="4"/>
+<path d="M24,20 l14,0 M24,28 l14,0" stroke-width="3"/>
+</g><g transform="translate(980,700)">
+<path d="M0,-45 Q30,0 22,18 A24,24 0 0 1 -22,18 Q-30,0 0,-45 Z" fill="#7cc8ff"/>
+<circle cx="-7" cy="6" r="4" fill="#232332" stroke="none"/><circle cx="9" cy="6" r="4" fill="#232332" stroke="none"/>
+<rect x="18" y="10" width="26" height="32" fill="#fff" stroke-width="4"/>
+<path d="M24,20 l14,0 M24,28 l14,0" stroke-width="3"/>
+</g>
+<circle cx="1080" cy="140" r="60" fill="#ffd25a"/>
+<text x="1040" y="250" font-family="helvetica" font-size="36" font-weight="bold" fill="#fff" stroke="none">päike?</text>
+
+</g></svg>

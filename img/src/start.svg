@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#6464ff"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<circle cx="600" cy="470" r="300" fill="#ffd25a"/>
+<g stroke="none" fill="#ffe89a" opacity=".6"><circle cx="600" cy="470" r="230"/></g>
+<circle cx="523.0" cy="400" r="35.2" fill="#fff0f0" stroke-width="13.200000000000001"/>
+<circle cx="527.4" cy="408.8" r="15.840000000000002" fill="#232332" stroke="none"/>
+<path d="M483.40000000000003,400 A39.6,39.6 0 0 1 562.6,400 Z" fill="#c9a0ff" stroke-width="13.200000000000001"/>
+<circle cx="677.0" cy="400" r="35.2" fill="#fff0f0" stroke-width="13.200000000000001"/>
+<circle cx="681.4" cy="408.8" r="15.840000000000002" fill="#232332" stroke="none"/>
+<path d="M637.4,400 A39.6,39.6 0 0 1 716.6,400 Z" fill="#c9a0ff" stroke-width="13.200000000000001"/>
+<path d="M545.0,500 Q600,566.0 655.0,500" fill="none" stroke-width="8.399999999999999"/>
+<rect x="0" y="560" width="1200" height="240" fill="#32c864"/>
+<path d="M520,560 L680,560 L900,800 L300,800 Z" fill="#c8a37a"/>
+<path d="M600,580 L600,610 M600,650 L600,700 M600,740 L600,800" stroke="#fff" stroke-width="10"/>
+<!-- tiny traveller -->
+<g transform="translate(560,600)">
+  <rect x="-22" y="20" width="44" height="60" rx="12" fill="#ff8c3c"/>
+  <rect x="-30" y="26" width="26" height="40" rx="8" fill="#8a5a3c"/>
+  <circle cx="0" cy="0" r="20" fill="#ffe0c0"/>
+  <path d="M-12,80 L-14,110 M12,80 L16,110" fill="none"/>
+</g>
+<!-- the five shirts on a line -->
+<path d="M60,120 Q300,170 540,120" fill="none" stroke-width="5"/>
+<path d="M80,140 L96,130 L124,130 L140,140 L132,154 L126,148 L126,190 L94,190 L94,148 L88,154 Z" fill="#ff6b6b" stroke-width="5"/><path d="M175,152 L191,142 L219,142 L235,152 L227,166 L221,160 L221,202 L189,202 L189,160 L183,166 Z" fill="#fff" stroke-width="5"/><path d="M270,155 L286,145 L314,145 L330,155 L322,169 L316,163 L316,205 L284,205 L284,163 L278,169 Z" fill="#32c864" stroke-width="5"/><path d="M365,152 L381,142 L409,142 L425,152 L417,166 L411,160 L411,202 L379,202 L379,160 L373,166 Z" fill="#ffd25a" stroke-width="5"/><path d="M460,140 L476,130 L504,130 L520,140 L512,154 L506,148 L506,190 L474,190 L474,148 L468,154 Z" fill="#c9a0ff" stroke-width="5"/>
+
+</g></svg>

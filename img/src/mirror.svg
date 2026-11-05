@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#32c864"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<rect x="0" y="680" width="1200" height="120" fill="#2aa858"/>
+<!-- the mirror on the right -->
+<g>
+  <rect x="740" y="140" width="340" height="480" rx="170" fill="#ff8c3c"/>
+  <rect x="770" y="170" width="280" height="420" rx="140" fill="#c8e8ff"/>
+  <path d="M800,260 L860,200 M810,320 L900,230" stroke="#fff" stroke-width="10"/>
+  <circle cx="861.0" cy="380" r="22.4" fill="#fff0f0" stroke-width="8.399999999999999"/>
+<circle cx="863.8" cy="385.6" r="10.08" fill="#232332" stroke="none"/>
+<circle cx="959.0" cy="380" r="22.4" fill="#fff0f0" stroke-width="8.399999999999999"/>
+<circle cx="961.8" cy="385.6" r="10.08" fill="#232332" stroke="none"/>
+  <ellipse cx="910" cy="470" rx="22" ry="28" fill="#232332"/>
+  <path d="M840,620 L820,690 M980,620 L1000,690" fill="none" stroke-width="12"/>
+  <path d="M740,380 L640,330" fill="none" stroke-width="12"/>
+</g>
+<!-- the second mirror: endless tunnel -->
+<rect x="140" y="140" width="340" height="480" rx="170" fill="#9a5ac8"/>
+<rect x="170.5" y="184.7" width="279.0" height="390.6" rx="139.5" fill="#c8e8ff" stroke-width="7.44"/>
+<rect x="205.0" y="233.0" width="210.0" height="294.0" rx="105.0" fill="#b8daf5" stroke-width="5.6"/>
+<rect x="235.0" y="275.0" width="150.0" height="210.0" rx="75.0" fill="#a8ccea" stroke-width="4.0"/>
+<rect x="260.5" y="310.7" width="99.0" height="138.6" rx="49.5" fill="#98bedf" stroke-width="2.64"/>
+<rect x="280.0" y="338.0" width="60.0" height="84.0" rx="30.0" fill="#88b0d4" stroke-width="3"/>
+<g stroke-width="3"><circle cx="285.5" cy="360" r="11.2" fill="#fff0f0" stroke-width="4.199999999999999"/>
+<circle cx="286.9" cy="362.8" r="5.04" fill="#232332" stroke="none"/>
+<circle cx="334.5" cy="360" r="11.2" fill="#fff0f0" stroke-width="4.199999999999999"/>
+<circle cx="335.9" cy="362.8" r="5.04" fill="#232332" stroke="none"/></g>
+<text x="230" y="110" font-family="helvetica" font-size="44" font-weight="bold" fill="#fff" stroke="none">oh no...</text>
+<text x="770" y="110" font-family="helvetica" font-size="44" font-weight="bold" fill="#fff" stroke="none">is that me?</text>
+
+</g></svg>

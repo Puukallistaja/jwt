@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#32c864"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<rect x="0" y="600" width="1200" height="200" fill="#2aa858" stroke="none"/>
+<!-- couch -->
+<rect x="80" y="430" width="520" height="190" rx="40" fill="#ff8c3c"/>
+<rect x="60" y="400" width="90" height="230" rx="40" fill="#ff8c3c"/>
+<rect x="530" y="400" width="90" height="230" rx="40" fill="#ff8c3c"/>
+<path d="M120,640 L120,680 M560,640 L560,680"/>
+<!-- sleepy blob person -->
+<ellipse cx="340" cy="420" rx="170" ry="70" fill="#ffe0c0"/>
+<circle cx="200" cy="380" r="60" fill="#ffe0c0"/>
+<circle cx="174.7" cy="375" r="17.6" fill="#fff0f0" stroke-width="6.6000000000000005"/>
+<circle cx="176.89999999999998" cy="379.4" r="7.920000000000001" fill="#232332" stroke="none"/>
+<path d="M154.9,375 A19.8,19.8 0 0 1 194.49999999999997,375 Z" fill="#c9a0ff" stroke-width="6.6000000000000005"/>
+<circle cx="225.3" cy="375" r="17.6" fill="#fff0f0" stroke-width="6.6000000000000005"/>
+<circle cx="227.5" cy="379.4" r="7.920000000000001" fill="#232332" stroke="none"/>
+<path d="M205.50000000000003,375 A19.8,19.8 0 0 1 245.1,375 Z" fill="#c9a0ff" stroke-width="6.6000000000000005"/>
+<path d="M185,410 Q200,420 215,410" fill="none" stroke-width="6"/>
+<text x="250" y="300" font-family="helvetica" font-size="56" font-weight="bold" fill="#fff" stroke="none">z</text>
+<text x="290" y="250" font-family="helvetica" font-size="72" font-weight="bold" fill="#fff" stroke="none">z</text>
+<text x="345" y="190" font-family="helvetica" font-size="92" font-weight="bold" fill="#fff" stroke="none">Z</text>
+<!-- runaway to-do list with legs -->
+<g transform="translate(900,300) rotate(8)">
+  <rect x="-110" y="-160" width="220" height="300" rx="10" fill="#fffbe8"/>
+  <text x="-80" y="-110" font-family="helvetica" font-size="34" font-weight="bold" fill="#232332" stroke="none">TO DO</text>
+  <path d="M-80,-70 l18,18 l30,-36" fill="none" stroke="#32c864" stroke-width="9"/>
+  <path d="M-30,-60 L80,-60 M-80,-10 L80,-10 M-80,40 L80,40 M-80,90 L40,90" stroke-width="6"/>
+  <circle cx="-30.0" cy="-10" r="16.0" fill="#fff0f0" stroke-width="6.0"/>
+<circle cx="-28.0" cy="-6.0" r="7.2" fill="#232332" stroke="none"/>
+<circle cx="30.0" cy="-10" r="16.0" fill="#fff0f0" stroke-width="6.0"/>
+<circle cx="32.0" cy="-6.0" r="7.2" fill="#232332" stroke="none"/>
+  <path d="M-50,140 L-90,250 L-120,250 M50,140 L100,230 L130,215" fill="none" stroke-width="10"/>
+  <path d="M-110,-40 L-200,-110 M110,-40 L190,-120" fill="none" stroke-width="10"/>
+</g>
+<path d="M700,520 q-30,10 -60,0 M720,560 q-40,14 -80,0" fill="none" stroke="#fff" stroke-width="6"/>
+
+</g></svg>

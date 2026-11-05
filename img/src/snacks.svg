@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#9a5ac8"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- cupboard -->
+<rect x="80" y="60" width="1040" height="700" rx="20" fill="#c8a37a"/>
+<rect x="120" y="100" width="960" height="620" fill="#5a3a2a"/>
+<!-- shelves as strata -->
+<rect x="120" y="300" width="960" height="20" fill="#e8c890"/>
+<rect x="120" y="510" width="960" height="20" fill="#e8c890"/>
+<!-- top shelf: crisps this week -->
+<path d="M180,300 L200,160 L320,160 L340,300 Z" fill="#ff6b6b"/>
+<text x="210" y="240" font-family="helvetica" font-size="30" font-weight="bold" fill="#fff" stroke="none">CRISPS</text>
+<rect x="400" y="190" width="90" height="110" rx="10" fill="#ffd25a"/>
+<rect x="520" y="210" width="140" height="90" rx="8" fill="#32c864"/>
+<!-- middle: mystery jar -->
+<rect x="720" y="380" width="120" height="130" rx="18" fill="#a8e0c0" opacity=".9"/>
+<rect x="710" y="360" width="140" height="30" rx="8" fill="#e83a3a"/>
+<text x="757" y="465" font-family="helvetica" font-size="56" font-weight="bold" fill="#232332" stroke="none">?</text>
+<!-- bottom: ancient cracker glowing -->
+<circle cx="980" cy="640" r="70" fill="#fff6a0" stroke="none" opacity=".6"/>
+<rect x="940" y="610" width="80" height="60" rx="6" fill="#f0c070"/>
+<g fill="#232332" stroke="none"><circle cx="960" cy="630" r="4"/><circle cx="980" cy="645" r="4"/><circle cx="1000" cy="630" r="4"/></g>
+<path d="M910,564 L914.0,576.0 L926,580 L914.0,584.0 L910,596 L906.0,584.0 L894,580 L906.0,576.0 Z" fill="#fff6a0" stroke-width="4"/>
+<path d="M1050,578 L1053.0,587.0 L1062,590 L1053.0,593.0 L1050,602 L1047.0,593.0 L1038,590 L1047.0,587.0 Z" fill="#fff6a0" stroke-width="4"/>
+<!-- tiny explorer with headlamp -->
+<g transform="translate(560,640)">
+  <path d="M-20,-30 L-200,60 L-150,110 Z" fill="#fff6a0" stroke="none" opacity=".45" transform="scale(-1,1)"/>
+  <rect x="-30" y="-10" width="60" height="70" rx="14" fill="#ff8c3c"/>
+  <circle cx="0" cy="-40" r="32" fill="#ffe0c0"/>
+  <path d="M-34,-52 Q0,-90 34,-52 Z" fill="#c8a37a"/>
+  <circle cx="22" cy="-58" r="10" fill="#fff6a0"/>
+  <circle cx="-11.0" cy="-36" r="8.8" fill="#fff0f0" stroke-width="3.3000000000000003"/>
+<circle cx="-9.9" cy="-33.8" r="3.9600000000000004" fill="#232332" stroke="none"/>
+<path d="M-20.900000000000002,-36 A9.9,9.9 0 0 1 -1.0999999999999992,-36 Z" fill="#c9a0ff" stroke-width="3.3000000000000003"/>
+<circle cx="11.0" cy="-36" r="8.8" fill="#fff0f0" stroke-width="3.3000000000000003"/>
+<circle cx="12.1" cy="-33.8" r="3.9600000000000004" fill="#232332" stroke="none"/>
+<path d="M1.0999999999999992,-36 A9.9,9.9 0 0 1 20.900000000000002,-36 Z" fill="#c9a0ff" stroke-width="3.3000000000000003"/>
+  <path d="M30,10 L80,-10" fill="none" stroke-width="8"/>
+  <path d="M75,-25 L95,0 L70,5 Z" fill="#8a8aa0" stroke-width="5"/>
+  <path d="M-14,60 L-18,85 M14,60 L18,85" fill="none" stroke-width="8"/>
+</g>
+<!-- the emergency chocolate -->
+<rect x="200" y="420" width="180" height="70" rx="6" fill="#7a4a2a"/>
+<rect x="250" y="400" width="140" height="44" fill="#fffbe8" transform="rotate(-8 320 420)"/>
+<text x="246" y="430" font-family="helvetica" font-size="18" fill="#232332" stroke="none" transform="rotate(-8 320 420)">for emergencies</text>
+
+</g></svg>
