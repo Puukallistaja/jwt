@@ -34,3 +34,54 @@ document.addEventListener('click', (e) => {
 });
 addEventListener('hashchange', sync);
 sync();
+
+// Listen: reads the open post aloud with the browser's own speech engine (free, no API, nothing leaves the device).
+// The button only appears where the browser supports speech synthesis.
+if ('speechSynthesis' in window) {
+  const synth = window.speechSynthesis;
+  const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Listen';
+  const STOP = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>Stop';
+  let playing = null;
+
+  const voice = () => {
+    const en = synth.getVoices().filter((v) => v.lang.startsWith('en'));
+    return en.find((v) => /natural|neural|google|samantha|daniel/i.test(v.name)) || en[0] || null;
+  };
+
+  const stop = () => {
+    synth.cancel();
+    if (playing) { playing.innerHTML = PLAY; playing.setAttribute('aria-pressed', 'false'); }
+    playing = null;
+  };
+
+  const speak = (post, btn) => {
+    stop();
+    // One utterance per paragraph: some engines cut off long utterances.
+    const parts = [...post.querySelectorAll('.prose h2, .prose h3, .prose p, .prose dl > div')]
+      .map((el) => el.textContent.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const v = voice();
+    parts.forEach((text, i) => {
+      const u = new SpeechSynthesisUtterance(text);
+      if (v) u.voice = v;
+      u.rate = 1.02;
+      if (i === parts.length - 1) u.onend = () => { if (playing === btn) stop(); };
+      synth.speak(u);
+    });
+    playing = btn;
+    btn.innerHTML = STOP;
+    btn.setAttribute('aria-pressed', 'true');
+  };
+
+  document.querySelectorAll('.reader .reader-bar').forEach((bar) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'listen';
+    btn.setAttribute('aria-pressed', 'false');
+    btn.innerHTML = PLAY;
+    btn.addEventListener('click', () => (playing === btn ? stop() : speak(bar.closest('.reader'), btn)));
+    bar.querySelector('.close').before(btn);
+  });
+
+  addEventListener('hashchange', () => { if (playing && !playing.closest('.reader').matches(':target')) stop(); });
+  addEventListener('pagehide', stop);
+}
