@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#f0823c"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- window with night -->
+<rect x="820" y="80" width="300" height="300" fill="#2a2a5a"/>
+<path d="M970,80 L970,380 M820,230 L1120,230"/>
+<circle cx="1060" cy="140" r="26" fill="#fff6c8"/>
+<!-- desk -->
+<rect x="140" y="520" width="700" height="40" fill="#8a5a3c"/>
+<rect x="170" y="560" width="40" height="200" fill="#8a5a3c"/><rect x="770" y="560" width="40" height="200" fill="#8a5a3c"/>
+<!-- boss cat -->
+<path d="M330,520 Q300,330 480,300 Q660,330 630,520 Z" fill="#ffa040"/>
+<!-- suit -->
+<path d="M360,520 Q350,400 420,380 L480,470 L540,380 Q610,400 600,520 Z" fill="#3a3a5a"/>
+<path d="M465,390 L495,390 L505,410 L480,480 L455,410 Z" fill="#e83a3a" stroke-width="5"/>
+<!-- head -->
+<path d="M380,260 L370,150 L440,210 Z M580,260 L590,150 L520,210 Z" fill="#ffa040"/>
+<circle cx="480" cy="280" r="110" fill="#ffa040"/>
+<path d="M410,230 L430,250 M550,230 L530,250 M480,190 L480,215" stroke="#d07020" stroke-width="7"/>
+<!-- smug eyes -->
+<path d="M420,275 Q440,260 460,275 M500,275 Q520,260 540,275" fill="none" stroke-width="8"/>
+<path d="M470,305 L490,305 L480,318 Z" fill="#e0457a" stroke-width="4"/>
+<path d="M480,318 Q465,335 450,325 M480,318 Q495,335 510,325" fill="none" stroke-width="5"/>
+<path d="M380,310 L320,300 M380,325 L320,330 M580,310 L640,300 M580,325 L640,330" stroke-width="4"/>
+<!-- paw on rent ledger -->
+<rect x="560" y="470" width="180" height="60" rx="4" fill="#fffbe8" transform="rotate(-6 650 500)"/>
+<text x="580" y="510" font-family="helvetica" font-size="26" font-weight="bold" fill="#232332" stroke="none" transform="rotate(-6 650 500)">RENT: PAID</text>
+<circle cx="745" cy="475" r="26" fill="#ffa040"/>
+<!-- the leaf receipt -->
+<path d="M240,500 Q260,440 320,450 Q300,510 240,500 Z" fill="#32c864" stroke-width="5"/>
+<path d="M240,500 L310,455" fill="none" stroke-width="3"/>
+<!-- confused human peeking -->
+<g transform="translate(1000,620)">
+  <circle cx="0" cy="0" r="60" fill="#ffe0c0"/>
+  <circle cx="-22.5" cy="-6" r="14.4" fill="#fff0f0" stroke-width="5.4"/>
+<circle cx="-20.7" cy="-2.4" r="6.48" fill="#232332" stroke="none"/>
+<path d="M-38.699999999999996,-6 A16.2,16.2 0 0 1 -6.3,-6 Z" fill="#c9a0ff" stroke-width="5.4"/>
+<circle cx="22.5" cy="-6" r="14.4" fill="#fff0f0" stroke-width="5.4"/>
+<circle cx="24.3" cy="-2.4" r="6.48" fill="#232332" stroke="none"/>
+<path d="M6.3,-6 A16.2,16.2 0 0 1 38.699999999999996,-6 Z" fill="#c9a0ff" stroke-width="5.4"/>
+  <ellipse cx="0" cy="30" rx="10" ry="12" fill="#232332"/>
+  <text x="60" y="-60" font-family="helvetica" font-size="70" font-weight="bold" fill="#fff" stroke="none">?</text>
+</g>
+
+</g></svg>

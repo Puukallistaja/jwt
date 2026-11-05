@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#9a5ac8"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<circle cx="1050" cy="130" r="70" fill="#ffd25a"/>
+<!-- shocked mountain -->
+<path d="M720,700 L950,260 L1180,700 Z" fill="#8a8aa0"/>
+<path d="M890,375 L950,260 L1010,375 L980,355 L950,385 L920,355 Z" fill="#fff"/>
+<circle cx="920" cy="500" r="20" fill="#fff" stroke-width="6"/><circle cx="980" cy="500" r="20" fill="#fff" stroke-width="6"/>
+<circle cx="920" cy="500" r="6" fill="#232332" stroke="none"/><circle cx="980" cy="500" r="6" fill="#232332" stroke="none"/>
+<ellipse cx="950" cy="570" rx="20" ry="28" fill="#232332"/>
+<!-- hill turning into stairs -->
+<path d="M0,700 L0,560 Q120,420 260,420 L260,480 L340,480 L340,540 L420,540 L420,600 L500,600 L500,660 L580,660 L580,700 Z" fill="#32c864"/>
+<circle cx="94.0" cy="520" r="19.2" fill="#fff0f0" stroke-width="7.199999999999999"/>
+<circle cx="96.4" cy="524.8" r="8.64" fill="#232332" stroke="none"/>
+<path d="M72.39999999999999,520 A21.599999999999998,21.599999999999998 0 0 1 115.60000000000001,520 Z" fill="#c9a0ff" stroke-width="7.199999999999999"/>
+<circle cx="166.0" cy="520" r="19.2" fill="#fff0f0" stroke-width="7.199999999999999"/>
+<circle cx="168.4" cy="524.8" r="8.64" fill="#232332" stroke="none"/>
+<path d="M144.4,520 A21.599999999999998,21.599999999999998 0 0 1 187.6,520 Z" fill="#c9a0ff" stroke-width="7.199999999999999"/>
+<path d="M110,575 Q130,565 150,575" fill="none" stroke-width="6"/>
+<!-- sweat / tired lines -->
+<path d="M230,380 q10,-25 0,-40 M270,400 q14,-20 6,-40" fill="none" stroke="#fff" stroke-width="6"/>
+<!-- tiny tie on the hill (corporate) -->
+<path d="M190,610 L210,610 L215,630 L200,680 L185,630 Z" fill="#e83a3a" stroke-width="5"/>
+<rect x="0" y="700" width="1200" height="100" fill="#2aa858"/>
+<!-- ramp in a therapy chair, being chill -->
+<path d="M620,700 L700,700 L700,640 Z" fill="#ffd25a" stroke-width="6"/>
+<text x="560" y="240" font-family="helvetica" font-size="44" font-weight="bold" fill="#fff" stroke="none">step...</text>
+<text x="600" y="300" font-family="helvetica" font-size="44" font-weight="bold" fill="#fff" stroke="none">by step...</text>
+
+</g></svg>

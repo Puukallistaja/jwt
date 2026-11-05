@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#2a2a5a"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<path d="M100,86 L103.5,96.5 L114,100 L103.5,103.5 L100,114 L96.5,103.5 L86,100 L96.5,96.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M250,50 L252.5,57.5 L260,60 L252.5,62.5 L250,70 L247.5,62.5 L240,60 L247.5,57.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M420,128 L423.0,137.0 L432,140 L423.0,143.0 L420,152 L417.0,143.0 L408,140 L417.0,137.0 Z" fill="#fff" stroke-width="4"/>
+<path d="M1100,64 L1104.0,76.0 L1116,80 L1104.0,84.0 L1100,96 L1096.0,84.0 L1084,80 L1096.0,76.0 Z" fill="#fff" stroke-width="4"/>
+<path d="M980,190 L982.5,197.5 L990,200 L982.5,202.5 L980,210 L977.5,202.5 L970,200 L977.5,197.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M700,40 L702.5,47.5 L710,50 L702.5,52.5 L700,60 L697.5,52.5 L690,50 L697.5,47.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M60,290 L62.5,297.5 L70,300 L62.5,302.5 L60,310 L57.5,302.5 L50,300 L57.5,297.5 Z" fill="#fff" stroke-width="4"/>
+<rect x="0" y="640" width="1200" height="160" fill="#4a4a7a"/>
+<g fill="#3a3a6a">
+<rect x="30" y="460" width="120" height="180"/><rect x="1020" y="420" width="150" height="220"/>
+</g>
+<g fill="#ffd25a" stroke="none"><rect x="60" y="500" width="22" height="28"/><rect x="100" y="560" width="22" height="28"/><rect x="1060" y="470" width="22" height="28"/><rect x="1110" y="540" width="22" height="28"/></g>
+<!-- streetlamp -->
+<path d="M950,640 L950,350 Q950,320 920,320" fill="none" stroke-width="10"/>
+<circle cx="910" cy="330" r="20" fill="#fff6a0"/>
+<!-- person walking -->
+<g transform="translate(360,560)">
+  <rect x="-28" y="-60" width="56" height="80" rx="16" fill="#ff8c3c"/>
+  <circle cx="0" cy="-90" r="30" fill="#ffe0c0"/>
+  <path d="M-12,20 L-28,80 M12,20 L30,80" fill="none" stroke-width="10"/>
+  <path d="M28,-40 L90,-80" fill="none" stroke-width="9"/>
+</g>
+<!-- leash -->
+<path d="M450,480 Q560,420 640,300" fill="none" stroke="#e83a3a" stroke-width="6"/>
+<!-- happy moon -->
+<circle cx="740" cy="250" r="120" fill="#fff6c8"/>
+<circle cx="690" cy="300" r="18" fill="#e8e0a8" stroke-width="4"/><circle cx="800" cy="190" r="14" fill="#e8e0a8" stroke-width="4"/>
+<circle cx="701.0" cy="230" r="20.8" fill="#fff0f0" stroke-width="7.800000000000001"/>
+<circle cx="703.6" cy="235.2" r="9.360000000000001" fill="#232332" stroke="none"/>
+<path d="M677.6,230 A23.400000000000002,23.400000000000002 0 0 1 724.4,230 Z" fill="#c9a0ff" stroke-width="7.800000000000001"/>
+<circle cx="779.0" cy="230" r="20.8" fill="#fff0f0" stroke-width="7.800000000000001"/>
+<circle cx="781.6" cy="235.2" r="9.360000000000001" fill="#232332" stroke="none"/>
+<path d="M755.6,230 A23.400000000000002,23.400000000000002 0 0 1 802.4,230 Z" fill="#c9a0ff" stroke-width="7.800000000000001"/>
+<path d="M710,280 Q740,310 770,280" fill="#e0457a" stroke-width="6"/>
+
+<!-- collar -->
+<path d="M640,300 Q700,360 790,360" fill="none" stroke="#e83a3a" stroke-width="12"/>
+<!-- wagging motion -->
+<path d="M870,230 q20,10 30,30 M880,190 q24,6 40,24" fill="none" stroke="#fff" stroke-width="6"/>
+
+</g></svg>

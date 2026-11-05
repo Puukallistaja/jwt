@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#9a5ac8"/>
+<g stroke="#232332" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- fridge body -->
+<rect x="300" y="60" width="600" height="700" rx="40" fill="#e8f4ff"/>
+<rect x="340" y="100" width="520" height="620" rx="18" fill="#fff8d8"/>
+<!-- door swung open -->
+<path d="M900,60 L1120,120 L1120,700 L900,760 Z" fill="#cfe2f5"/>
+<rect x="1080" y="300" width="18" height="140" rx="9" fill="#232332"/>
+<!-- spotlight -->
+<path d="M600,100 L420,560 L780,560 Z" fill="#fff6a0" stroke="none" opacity=".75"/>
+<circle cx="600" cy="110" r="22" fill="#fff6a0"/>
+<!-- shelf / stage -->
+<rect x="340" y="560" width="520" height="24" fill="#c8a37a"/>
+<path d="M340,100 Q400,180 340,300 M860,100 Q800,180 860,300" fill="#e0457a" stroke-width="6"/>
+<!-- cheese wheel taking a bow -->
+<g transform="translate(600,470) rotate(-18)">
+  <path d="M-90,80 L-90,-10 A95,95 0 0 1 90,-10 L90,80 Z" fill="#ffd25a"/>
+  <circle cx="-40" cy="40" r="14" fill="#f0b030" stroke-width="4"/>
+  <circle cx="45" cy="20" r="10" fill="#f0b030" stroke-width="4"/>
+  <circle cx="-25.0" cy="-10" r="16.0" fill="#fff0f0" stroke-width="6.0"/>
+<circle cx="-23.0" cy="-6.0" r="7.2" fill="#232332" stroke="none"/>
+<path d="M-43.0,-10 A18.0,18.0 0 0 1 -7.0,-10 Z" fill="#c9a0ff" stroke-width="6.0"/>
+<circle cx="25.0" cy="-10" r="16.0" fill="#fff0f0" stroke-width="6.0"/>
+<circle cx="27.0" cy="-6.0" r="7.2" fill="#232332" stroke="none"/>
+<path d="M7.0,-10 A18.0,18.0 0 0 1 43.0,-10 Z" fill="#c9a0ff" stroke-width="6.0"/>
+  <path d="M-20.0,22 Q0,46.0 20.0,22" fill="none" stroke-width="6.0"/>
+</g>
+<!-- ketchup lying down, late -->
+<g transform="translate(470,535) rotate(-90)">
+  <rect x="-25" y="-70" width="50" height="110" rx="20" fill="#e83a3a"/>
+  <rect x="-12" y="-95" width="24" height="28" fill="#fff"/>
+</g>
+<!-- egg audience member -->
+<ellipse cx="760" cy="510" rx="38" ry="50" fill="#fff"/>
+<circle cx="748.0" cy="500" r="9.6" fill="#fff0f0" stroke-width="3.5999999999999996"/>
+<circle cx="749.2" cy="502.4" r="4.32" fill="#232332" stroke="none"/>
+<path d="M737.1999999999999,500 A10.799999999999999,10.799999999999999 0 0 1 758.8000000000001,500 Z" fill="#c9a0ff" stroke-width="3.5999999999999996"/>
+<circle cx="772.0" cy="500" r="9.6" fill="#fff0f0" stroke-width="3.5999999999999996"/>
+<circle cx="773.2" cy="502.4" r="4.32" fill="#232332" stroke="none"/>
+<path d="M761.1999999999999,500 A10.799999999999999,10.799999999999999 0 0 1 782.8000000000001,500 Z" fill="#c9a0ff" stroke-width="3.5999999999999996"/>
+<path d="M745,530 q15,8 30,0" fill="none" stroke-width="4"/>
+<!-- broccoli -->
+<g transform="translate(420,700)"><rect x="-10" y="-40" width="20" height="40" fill="#5ac85a"/><circle cx="-18" cy="-50" r="22" fill="#32a050"/><circle cx="18" cy="-50" r="22" fill="#32a050"/><circle cx="0" cy="-66" r="24" fill="#32a050"/></g>
+<path d="M200,170 L207.5,192.5 L230,200 L207.5,207.5 L200,230 L192.5,207.5 L170,200 L192.5,192.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M1000,38 L1005.5,54.5 L1022,60 L1005.5,65.5 L1000,82 L994.5,65.5 L978,60 L994.5,54.5 Z" fill="#fff" stroke-width="4"/>
+<path d="M180,576 L186.0,594.0 L204,600 L186.0,606.0 L180,624 L174.0,606.0 L156,600 L174.0,594.0 Z" fill="#fff" stroke-width="4"/>
+
+</g></svg>

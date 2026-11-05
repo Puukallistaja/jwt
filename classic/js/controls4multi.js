@@ -57,9 +57,9 @@ var create = function(e) {
   //give another class to popper, so it would animate on creation
   popper.className += " modal";
   if (history.state == null) {
-    history.pushState(1, null, 'multi.html');
+    history.pushState(1, null, location.pathname);
   } else {
-    history.replaceState(1, null, 'multi.html');
+    history.replaceState(1, null, location.pathname);
   }
   
   modalOpen = true;
@@ -103,6 +103,8 @@ function remove(){
   document.body.classList.remove("no-flow");
   window.scrollTo(0, pos);
   element.addEventListener("transitionend", function(event) {
+    // transitionend fires once per animated property, so only remove once
+    if (element.parentNode === null) return;
     element.parentNode.removeChild(element);
     modalOpen = false;
   });
