@@ -1,4 +1,4 @@
-/* Just Wild Theories. Plain CSS, no build step.
+/* JustWeedThoughts (new version). Plain CSS, no build step.
    The reader is pure CSS: each post is an <article class="reader" id="..."> shown by :target. */
 
 :root {
@@ -78,7 +78,7 @@ header.site h1 {
 }
 .tagline {
   margin: .75rem 0 0;
-  max-width: 34ch;
+  max-width: 42ch;
   font: 600 clamp(1.15rem, 2.6vw, 1.5rem)/1.35 var(--serif);
 }
 .byline { margin: .75rem 0 0; max-width: 60ch; color: var(--muted); }
@@ -144,7 +144,7 @@ footer.site { padding: 1rem 0 3rem; color: var(--muted); font-size: .9rem; }
 .close:hover { background: rgb(255 255 255 / .18); }
 .close:focus-visible { outline-color: #fff; }
 .hero {
-  width: 100%; max-height: 62vh; aspect-ratio: 3 / 2; object-fit: cover;
+  width: 100%; max-height: 62vh; aspect-ratio: 3 / 2; object-fit: contain; /* whole picture; side bands use the same --bright */
   background: var(--bright); border-bottom: 3px solid var(--ink);
 }
 .prose {

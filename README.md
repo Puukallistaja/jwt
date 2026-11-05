@@ -2,8 +2,8 @@
 
 Two versions of the same little blog live in this repo:
 
-- **`/` Just Wild Theories** (new). Projects that only feel possible while high: cure cancer, replace money, talk to whales. Funny, with a real core. Plain HTML and CSS, one optional script, no build step and no external requests.
-- **`/classic/` JustWeedThoughts** (original, 2017). The stoned shower-thought blog, kept as it was. It loads `articles/<id>.html` into a modal with JavaScript.
+- **`/` JustWeedThoughts, new version.** Same name, new topic: wild theories for fixing the world. Projects that only feel possible while high: cure cancer, replace money, talk to whales. Funny, with a real core. Plain HTML and CSS, one optional script, no build step and no external requests.
+- **`/classic/` JustWeedThoughts, classic version** (original, 2017). The stoned shower-thought blog, kept as it was. It loads `articles/<id>.html` into a modal with JavaScript.
 
 Each version has a small New / Classic switch in the top-right corner.
 
