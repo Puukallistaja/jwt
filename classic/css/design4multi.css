@@ -208,3 +208,29 @@ img {
 		        flex: 1 0 30%;
 	}
 }
+
+/* ======================|Version switch|=================== */
+
+.jwt-switch {
+	display: flex;
+	justify-content: flex-end;
+	gap: .5rem;
+	margin: 1% 2% 0;
+	font: .9rem helvetica, arial, sans-serif;
+}
+.jwt-switch a,
+.jwt-switch span {
+	padding: .3rem .7rem;
+	border: 2px solid rgb(35, 35, 50);
+	border-radius: 999px;
+	color: rgb(35, 35, 50);
+	text-decoration: none;
+}
+.jwt-switch span {
+	background-color: rgb(35, 35, 50);
+	color: rgb(215, 255, 225);
+}
+.jwt-switch a:hover,
+.jwt-switch a:focus-visible {
+	background-color: white;
+}
